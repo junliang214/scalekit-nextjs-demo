@@ -13,16 +13,16 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 
-A modern Next.js application demonstrating <a href="https://scalekit.com" target="_blank" rel="noopener noreferrer">Scalekit</a>'s **auth stack for AI apps**. This example showcases how to implement both human authentication (SSO, passwordless) and agent authorization (MCP, token vaults) in a React/Next.js application.
+A modern Next.js application demonstrating <a href="https://scalekit.com" target="_blank" rel="noopener noreferrer">Scalekit</a>'s enterprise authentication capabilities. This example showcases how to implement SSO authentication flows in a React/Next.js application using the app router.
 
-## 🤖 What This Demo Shows
+## 🚀 What This Demo Shows
 
-- **Agent-First Authentication**: MCP integration with delegated consent
-- **Human SSO Integration**: Enterprise SAML/OIDC authentication 
-- **Token Vault**: Secure per-user, per-tool token management
-- **Passwordless Auth**: Modern authentication flows
-- **Session Management**: Secure user state management
-- **Modern UI/UX**: Clean, responsive interface built with Next.js 13+
+- **Enterprise SSO Integration**: SAML/OIDC authentication flows using Scalekit
+- **Next.js App Router**: Modern Next.js 13+ patterns with server actions
+- **Session Management**: Secure authentication state with HTTP-only cookies
+- **OAuth 2.0 Flows**: Authorization code flow with CSRF protection
+- **User Profile Management**: Authenticated user data display
+- **Modern UI/UX**: Clean, responsive interface with Tailwind CSS
 
 ## 🚀 Quick Start
 
