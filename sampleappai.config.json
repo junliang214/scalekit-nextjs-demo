@@ -1,0 +1,44 @@
+{
+  "name": "Scalekit Next.js Demo",
+  "language": "node",
+  "required_runtime": "node>=18",
+  "package_managers": [
+    "bun",
+    "pnpm",
+    "yarn",
+    "npm"
+  ],
+  "env_file": ".env.local",
+  "env_vars": [
+    {
+      "name": "SCALEKIT_ENV_URL",
+      "placeholder": "https://your-env.scalekit.com",
+      "description": "Your Scalekit environment URL",
+      "docs": "https://scalekit.com/docs/how-to-get-env-url"
+    },
+    {
+      "name": "SCALEKIT_CLIENT_ID",
+      "placeholder": "your_client_id",
+      "description": "Client ID for authenticating with Scalekit",
+      "docs": "https://scalekit.com/docs/how-to-get-client-id"
+    },
+    {
+      "name": "SCALEKIT_CLIENT_SECRET",
+      "placeholder": "your_client_secret",
+      "description": "Client secret for authenticating with Scalekit",
+      "docs": "https://scalekit.com/docs/how-to-get-client-secret"
+    }
+  ],
+  "preinstall_steps": [
+    ""
+  ],
+  "postinstall_steps": [
+    "pip list"
+  ],
+  "start_command": "dev",
+  "messages": {
+    "welcome": "🚀 Welcome to the Scalekit Next.js Demo!",
+    "success": "🎉 Your app is running at http://localhost:3000",
+    "after_setup": "You are now ready to experiment with Scalekit's API."
+  }
+}
