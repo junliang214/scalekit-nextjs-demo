@@ -27,13 +27,25 @@
       "placeholder": "your_client_secret",
       "description": "Client secret for authenticating with Scalekit",
       "docs": "https://scalekit.com/docs/how-to-get-client-secret"
-    }
+    },
+    {
+      "name": "AUTH_REDIRECT_URI",
+      "placeholder": "http://localhost:3000/auth/callback",
+      "description": "Auth Redirect URI",
+      "docs": ""
+    },
+    {
+      "name": "AUTH_CONNECTION_ID",
+      "placeholder": "",
+      "description": "Auth Connection ID",
+      "docs": ""
+    },
   ],
   "preinstall_steps": [
     ""
   ],
   "postinstall_steps": [
-    "pip list"
+    ""
   ],
   "start_command": "dev",
   "messages": {
