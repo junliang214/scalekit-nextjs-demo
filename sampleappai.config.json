@@ -39,7 +39,7 @@
       "placeholder": "",
       "description": "Auth Connection ID",
       "docs": ""
-    },
+    }
   ],
   "preinstall_steps": [
     ""
